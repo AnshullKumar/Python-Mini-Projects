@@ -16,7 +16,7 @@ while True:
         break
     if user_input not in options:
         print("Invalid input, please try again.")
-        continue
+        c
 
     random_number = random.randint(0,2)
     computer_pick = options[random_number]
