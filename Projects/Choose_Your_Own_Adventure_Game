@@ -1,1 +1,27 @@
 
+#Welcome to the Adventure Game!
+#Here we are exploring a simple text-based adventure game.
+#Here im learning how to use if statements and input functions.
+#This is a simple game where the player makes choices that affect the outcome.
+
+
+name = input("Type your name: ")
+print("Welcome" , name, "to the Adventure Game!")
+
+answer = input("You are in a dirt road, it has come to an end and you can go left or right to go?").lower()
+
+if answer == "left":
+    answer = input("You come to a river, do you want to walk around it or swim across? ").lower()
+    
+    if answer == "swim":
+        print("You swam across and were eaten by an alligator. Game over.")
+
+    elif answer == "walk":
+        print("You walked for miles, ran out of water and lost the game.")
+    else:
+        print("Not a valid option. You lose.")
+
+elif answer == "right":
+    
+else:
+    print("Not a valid option. You lose.")
