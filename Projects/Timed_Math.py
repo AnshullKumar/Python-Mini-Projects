@@ -26,3 +26,19 @@ print("-------------------")
 
 start_time = time.time() # Record the start time
 
+for i in range(total_problems):
+    exp, answer = generate_problem()
+    
+    while True:
+        guess = input("Problem # " + str(i + 1) + ": " + exp + " = ")
+        if guess == str(answer):
+            break
+        
+        wrong_attempts += 1
+
+end_time = time.time() # Record the end time
+total_time = round(end_time - start_time, 2) # round() returns the result in 2 decimal places
+
+print("-------------------")
+print("Nice work! You finished in " + str(total_time) + "seconds.")
+print("You had " + str(wrong_attempts) + " wrong attempts.")
