@@ -59,7 +59,5 @@ def main():
     print(f"You are betting on ${bet} on {lines} lines. Total bet is equal to : ${total_bet}")
     
     
-    #print(balance,lines)
-
-
-main()
+    print(balance,lines)
+    
