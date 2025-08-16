@@ -52,9 +52,3 @@ These projects are made to practice core Python concepts like loops, conditional
 - Learn problem-solving with mini projects.  
 - Build a base for larger, more complex applications.  
 
----
-
-## 🚀 How to Run  
-
-1. Clone the repository:  
-   
