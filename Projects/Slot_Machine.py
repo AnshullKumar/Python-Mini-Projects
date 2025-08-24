@@ -1,6 +1,6 @@
 # Making a Slot Machine
 # Here we take an amount from the user, on which line they are betting on and their bet
-# 
+#  
 
 
 Max_lines = 3
