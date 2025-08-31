@@ -26,7 +26,7 @@ def get_slot_machine_spin(rows,columns,symbols):
     
     columns = [[],[],[]]
     for col in range(cols):
-        column = []
+        column = [] 
 
 
 def deposit():
