@@ -1,6 +1,36 @@
-# Making a Slot Machine
-# Here we take an amount from the user, on which line they are betting on and their bet
-#  
+
+# Slot Machine Game
+# -----------------
+# This is a simple terminal-based slot machine simulation.
+# Players can deposit money, choose how many lines to bet on, and place bets per line.
+# The slot machine has 3 rows and 3 columns, with symbols having different frequencies.
+
+# Rules and Gameplay:
+# 1. Players can deposit any positive amount to start playing.
+# 2. The machine allows betting on 1 to 3 lines.
+# 3. Each line can have a bet amount between $1 and $100.
+# 4. The total bet is calculated as: total bet = bet per line * number of lines.
+# 5. The player cannot bet more than their current balance.
+# 6. Symbols on the slot machine include:
+#    - "A" (2 occurrences)
+#    - "B" (4 occurrences)
+#    - "C" (6 occurrences)
+#    - "D" (8 occurrences)
+# 7. The slot machine spins randomly, selecting symbols for each column based on their frequency.
+# 8. Winning Conditions:
+#    - A player wins if all symbols in a line (row) are the same.
+#    - The payout is calculated as: the money paid for the winning lines = bet per line * number of lines won on.
+#    - The game informs the player of the winning lines and total winnings.
+# 9. The game continues until the player chooses to quit or runs out of money.
+
+# Features Implemented:
+# - User deposit and input validation
+# - Bet selection per line with validation
+# - Random slot machine spin respecting symbol frequencies
+# - Displaying the slot machine in a readable format
+# - Checking for winning lines and calculating payouts
+# - Updating and displaying player balance after each spin
+
 
 import random
 
