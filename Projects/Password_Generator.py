@@ -1,3 +1,11 @@
+# Password Manager
+# ----------------
+# 1. Imports letters, digits, and symbols.
+# 2. Builds a pool of characters based on user choices.
+# 3. Randomly picks characters until password meets length and criteria (numbers/specials if required).
+# 4. Returns and prints the generated password.
+
+
 import random
 import string
 
