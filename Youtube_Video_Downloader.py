@@ -14,12 +14,15 @@
 # Which ill be able to watch later (offline) ...
 
 
-from pytube import YouTube
-from sys import argv
+from pytubefix import YouTube
+import sys
 
-link = argv[1]
+if len(sys.argv) < 2:
+    print("Usage: python test.py <youtube_link>")
+    sys.exit(1)
+
+link = sys.argv[1]
 yt = YouTube(link)
 
-print("Title: ", yt.title)
-print("Number of views: ", yt.views)
-
+print("Title :", yt.title)
+print("Views :", yt.views)
