@@ -29,7 +29,7 @@ print("Views :", yt.views)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download("X:\Downloads\Youtube Downloads")
+yd.download("X:\Downloads\Youtube Downloads")  # Path directed to where you would like to store the downloaded video...
 
 print("Downloaded Successfully into the specified directory...")
 
